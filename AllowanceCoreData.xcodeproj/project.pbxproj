@@ -14,6 +14,7 @@
 		D4761312234D226300955C67 /* AllowanceCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4761310234D226300955C67 /* AllowanceCoreData.xcdatamodeld */; };
 		D4761314234D226600955C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4761313234D226600955C67 /* Assets.xcassets */; };
 		D4761317234D226600955C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4761315234D226600955C67 /* LaunchScreen.storyboard */; };
+		D476131F234E60D200955C67 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D476131E234E60D200955C67 /* helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D4761313234D226600955C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4761316234D226600955C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4761318234D226600955C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D476131E234E60D200955C67 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		D47612FB234D226300955C67 = {
 			isa = PBXGroup;
 			children = (
+				D476131E234E60D200955C67 /* helper.swift */,
 				D4761306234D226300955C67 /* AllowanceCoreData */,
 				D4761305234D226300955C67 /* Products */,
 			);
@@ -144,6 +147,7 @@
 				D476130C234D226300955C67 /* ViewController.swift in Sources */,
 				D4761308234D226300955C67 /* AppDelegate.swift in Sources */,
 				D476130A234D226300955C67 /* SceneDelegate.swift in Sources */,
+				D476131F234E60D200955C67 /* helper.swift in Sources */,
 				D4761312234D226300955C67 /* AllowanceCoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
